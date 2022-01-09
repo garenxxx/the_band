@@ -1,0 +1,78 @@
+@media (min-width: 1024px){
+    .icon2{
+        display: none;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 740px) {
+    .content-head{
+        width: 100% !important;
+    }
+    .icon2{
+        display: none;
+    }
+} 
+
+@media (max-width: 739px) {
+    /* header part */
+    .content-head{
+        width: 100% !important;
+    }
+    .header{
+        display: block;
+    }
+    .header.second:hover{
+        background-color: #ccc;
+        color: #000;
+    }
+    #nav .first:hover a{
+        background-color: #ccc ;
+        color: #000;
+    }
+    .snav > a{
+        margin-left: 20px;
+    }
+    .head{
+        overflow: hidden;
+    }
+    .slider-content{
+        display: none;
+    }
+    .icon1{
+        display: none;
+    }
+    /* content part */
+    .content-img{
+        width: 100%;
+    }
+    .content-img > div{
+        width: 100%;
+    }
+    img.pic{
+        width: 60% !important;
+    }
+    .place > div {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .buy{
+        width: 100%;
+    }
+    /* contact part */
+    .contact-row > div {
+        width: 100%;
+    }
+    .ti-email {
+        margin-bottom: 24px;
+        display: inline-block;
+    } 
+    .contact-row:last-child > div {
+        width: 100%;
+    }
+    form > .row > div{
+        width: 100%;
+    }
+    .send-button{
+        width: 100%;
+    }
+}
